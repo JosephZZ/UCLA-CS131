@@ -1,0 +1,5 @@
+In this homework the hardest part to me is to understand what call/cc really is and how to use it. After "figuring out" (I didn't really at this moment) these two problems, my first reaction is to change all the places that use accept to be achieved by call/cc. 
+But then I was confused that how I should backtrack for ((eq? 'junk (car pat)) part since the call/cc is defined within match-junk function - shouldn't this only end up with a value returned by match-junk instead of make-matcher?
+Finally I realized that because Scheme is a dynamic language, the state of backtracker is reflecting the function that calls match-junk, which is make-matcher. 
+After understanding this point I realize that I don't have to literally replace all accept with call/cc. I just need to redefine accept with call/cc so that every time accept is being called it will use call/cc, which is exactly the same effect as literally replacing all.
+So I only need to add several lines of code on top of the original solution provided by the professor.

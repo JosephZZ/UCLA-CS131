@@ -1,0 +1,140 @@
+INFO:root:Hamilton server started
+INFO:root:Connection with Hamilton established. Total: 1
+INFO:root:Input received: AT egger +37.322752-122.030836 1401072205.798801
+INFO:root:Sent message: AT egger +37.322752-122.030836 1401072205.798801 to the following servers ['Parker']
+INFO:root:Connection with Hamilton lost. Total: 0
+INFO:root:Connection with Hamilton established. Total: 1
+INFO:root:Input received: AT bergger +34.151324-118.028232 1401496386.27158
+INFO:root:Sent message: AT bergger +34.151324-118.028232 1401496386.27158 to the following servers ['Parker']
+INFO:root:Connection with Hamilton lost. Total: 0
+INFO:root:Connection with Hamilton established. Total: 1
+INFO:root:Input received: WHATSAT egger 40 5
+INFO:root:Reply to WHATSAT request: AT Hamilton +31980824.5851 egger 40 5
+{
+   "html_attributions": [], 
+   "results": [
+      {
+         "geometry": {
+            "location": {
+               "lat": 37.3228308, 
+               "lng": -122.0311077
+            }
+         }, 
+         "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png", 
+         "id": "f66df35ee6aae3eb5d0d0818dc03a157c6eeabc8", 
+         "name": "Stevens Creek Blvd", 
+         "place_id": "ChIJVz-njK61j4AR2lKjNNk3MgA", 
+         "reference": "CpQBigAAAChbqUxjWce10KV3P5awqAbtf8YtX8c4w_jhAl_-eucE1coCCn4CrIWILWJ13UsV9fXNV_WPriwaRwOAbO_iBvSoVf5a-LRRxOPEGyeLbSrNOFZmvz8kF3qjd-JtQi2xE1Uz2jCORXXMD1fbQt0b7UJ3vBYOXzg-ZtVTE84lK1e4zC2I0PjnKhicEkPL9KmZ1hIQr-aXkXwDeIxjTufZMCQ-shoUkcwlJvnLWzBu2xPbzMvvw1PnnOQ", 
+         "scope": "GOOGLE", 
+         "types": [
+            "route"
+         ], 
+         "vicinity": "Cupertino"
+      }, 
+      {
+         "geometry": {
+            "location": {
+               "lat": 37.322399, 
+               "lng": -122.030882
+            }
+         }, 
+         "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png", 
+         "id": "92e75fb965fcda94ccfa7e093e4b05728441bd6b", 
+         "name": "Le Boulanger", 
+         "opening_hours": {
+            "open_now": false, 
+            "weekday_text": []
+         }, 
+         "photos": [
+            {
+               "height": 172, 
+               "html_attributions": [], 
+               "photo_reference": "CnRnAAAARliXfIj46BVHObbDuQao8Y3cxJ_aCS2SNZwBWkQP27zVZy6ZpywlIz30hbNijmO7q-EcB1P-VGjEYUm3ClsZ3AgbLoI7O4x__5mUuHytQMNfnsDDrdwAELC9kYSlzfQp5R1Qyb2s4WMJvgP_QxDOEBIQsl1GMdz3xku2QhrBwA_Z2hoU7WQJMvgKCI4Y0ndJCQSAtpaJ-6c", 
+               "width": 191
+            }
+         ], 
+         "place_id": "ChIJnUjdK6m1j4ARgboPsu46fCc", 
+         "rating": 3.7, 
+         "reference": "CmRfAAAAHFHPFVSWhR_THd_gzAviauBEoS_-cyikPnkzxPb7rUA8Ia7MGwyUdSRvB46du_VNlrmpMh7-t_bD2_axhW9IFwjQDX3E9th8Q_Nm1v22S_RRTimItXRtNZ3cJkqzowyTEhC38DDaYlYMWo0Nl_JgkZsKGhSdpnHe6_VPcOTxGH8uUFf_BreW-g", 
+         "scope": "GOOGLE", 
+         "types": [
+            "bakery", 
+            "store", 
+            "cafe", 
+            "restaurant", 
+            "food", 
+            "establishment"
+         ], 
+         "vicinity": "20488 Stevens Creek Boulevard, Cupertino"
+      }, 
+      {
+         "geometry": {
+            "location": {
+               "lat": 37.323076, 
+               "lng": -122.030841
+            }
+         }, 
+         "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/electronics-71.png", 
+         "id": "230ea11ec3d932c8a749a33f4fe28658391cb8a6", 
+         "name": "Roamware", 
+         "place_id": "ChIJT_H3-q61j4ARLr4XNS5HujQ", 
+         "reference": "CmRbAAAAfpq0ksUERC-suplXB9tPMJhinj7GWUAnTQdUL0qmysELdY-FzMTQZSC5fxKDV9NNG8qJbZ1CfqPJxjYNt4ik_6azOQVUzrgqkuG-eJwxIXWcPsdNY2hVqQW8YDy6c3lxEhAEXr8ave_4hUkrSo_-uVpMGhQ3qZOGegNLO9XPgB4n4MjHChf57Q", 
+         "scope": "GOOGLE", 
+         "types": [
+            "electronics_store", 
+            "store", 
+            "establishment"
+         ], 
+         "vicinity": "20401 Stevens Creek Boulevard, Cupertino"
+      }, 
+      {
+         "geometry": {
+            "location": {
+               "lat": 37.322438, 
+               "lng": -122.030756
+            }
+         }, 
+         "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png", 
+         "id": "bb34a31433b8c59dfe537c85240b5e054d0e7171", 
+         "name": "Cupertino Trash Hauling & Roll off Debris Container Rental", 
+         "photos": [
+            {
+               "height": 251, 
+               "html_attributions": [], 
+               "photo_reference": "CnRnAAAARTeQNfkUYAJ73IGodX-hK1OcBaAs4x0qRb8kXxOx7VSRsy_FtDU_FPThRXUwhmYSOzgKNXgerN-7R1izt3NZ28RkBSWzSUNHajVN2FRFYPGpWLIItfmIaOYV5s_ZjK9wNeOXx8NHhaAEoOspuW7eihIQRZKn9iv1WXRD1u6kWBrjgRoUE4fZAi_JmClOT9ZeSfKnjfNBZbY", 
+               "width": 516
+            }
+         ], 
+         "place_id": "ChIJvfi8lK61j4AReg1GJ9fFmyA", 
+         "reference": "CpQBjgAAAFZ0nZB3js18J_44Cgw4SWcsor5ME-T1k2D8pQF8GTwGBGeniRq0hqnYuRsBRxmTGzZtcFRwKQvida1Cv6lhRLZFrfgmpKtw6K_UBQAXdE3FRzyN3ip2vNJqX8lmLeWsRnY_80hBDjR2WCACYjZQtoDv6U2UP0ZQ54lxmTjr6s-SR4h89JMLRy26Fqy7gnJJ-BIQ7CQRsLtzd22meSKtLdlXqhoUMBKoSYLmNJ_DX5pJAoP4GqLEwMs", 
+         "scope": "GOOGLE", 
+         "types": [
+            "establishment"
+         ], 
+         "vicinity": "20488 Stevens Creek Boulevard, Cupertino"
+      }, 
+      {
+         "geometry": {
+            "location": {
+               "lat": 37.322534, 
+               "lng": -122.030795
+            }
+         }, 
+         "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png", 
+         "id": "e9846584067bb9681532ec77081a3e0e88895ff3", 
+         "name": "Dr. Janet C. Tseng, MD", 
+         "place_id": "ChIJnUjdK6m1j4AR6IZR0H1geR0", 
+         "reference": "CnRpAAAAOhIoSpGv6TvowmOTEmN3IFjr_sXw9e6nsUNKdsYBMrVv_17RlDW0ULsoNIepYTGAbUbvrgcV3Fhmi2jap6S5ttGxYAt1D7SI1He0fIa90pzqM8YSnV_SE_g_7ZpY1YjEgv9sDX9erioFLheKPvNWFBIQJF22D--EHWbIVUFmTSx8thoULlmiZHo_03bdAqADzMR8C9GQayk", 
+         "scope": "GOOGLE", 
+         "types": [
+            "doctor", 
+            "health", 
+            "establishment"
+         ], 
+         "vicinity": "20488 Stevens Creek Boulevard, Cupertino"
+      }
+   ], 
+   "status": "OK"
+}
+INFO:root:Connection with Hamilton lost. Total: 0
+INFO:root:Hamilton server shutdown

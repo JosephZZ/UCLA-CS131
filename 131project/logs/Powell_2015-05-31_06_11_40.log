@@ -1,0 +1,19 @@
+INFO:root:Powell server started
+INFO:root:Connection with Powell established. Total: 1
+INFO:root:Input received: AT egger +37.322752-122.030836 1401072205.798801
+INFO:root:Sent message: AT egger +37.322752-122.030836 1401072205.798801 to the following servers ['Alford', 'Bolden']
+INFO:root:Connection with Powell lost. Total: 0
+INFO:root:Connection with Powell established. Total: 1
+INFO:root:Input received: AT egger +37.322752-122.030836 1401072205.798801
+INFO:root:Connection with Powell lost. Total: 0
+INFO:root:Connection with Powell established. Total: 1
+INFO:root:Input received: echo IAMAT bergger +34.151324-118.028232 1401496386.27158
+ERROR:root:Invalid request: echo IAMAT bergger +34.151324-118.028232 1401496386.27158
+INFO:root:Input received: IAMAT bergger +34.151324-118.028232 1401496386.27158
+INFO:root:Sent message: AT bergger +34.151324-118.028232 1401496386.27158 to the following servers ['Alford', 'Bolden']
+INFO:root:Reply to IAMAT request: AT Powell +31556549.3572 bergger +34.151324-118.028232 1401496386.27158
+INFO:root:Connection with Powell established. Total: 2
+INFO:root:Input received: AT bergger +34.151324-118.028232 1401496386.27158
+INFO:root:Connection with Powell lost. Total: 1
+INFO:root:Connection with Powell lost. Total: 0
+INFO:root:Powell server shutdown

@@ -1,0 +1,16 @@
+INFO:root:Bolden server started
+INFO:root:Connection with Bolden established. Total: 1
+INFO:root:Connection with Bolden established. Total: 2
+INFO:root:Input received: AT egger +37.322752-122.030836 1401072205.798801
+INFO:root:Sent message: AT egger +37.322752-122.030836 1401072205.798801 to the following servers ['Parker', 'Powell']
+INFO:root:Input received: AT egger +37.322752-122.030836 1401072205.798801
+INFO:root:Connection with Bolden lost. Total: 1
+INFO:root:Connection with Bolden lost. Total: 0
+INFO:root:Connection with Bolden established. Total: 1
+INFO:root:Input received: AT bergger +34.151324-118.028232 1401496386.27158
+INFO:root:Sent message: AT bergger +34.151324-118.028232 1401496386.27158 to the following servers ['Parker', 'Powell']
+INFO:root:Connection with Bolden lost. Total: 0
+INFO:root:Connection with Bolden established. Total: 1
+INFO:root:Input received: AT bergger +34.151324-118.028232 1401496386.27158
+INFO:root:Connection with Bolden lost. Total: 0
+INFO:root:Bolden server shutdown

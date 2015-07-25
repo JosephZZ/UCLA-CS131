@@ -1,0 +1,39 @@
+This hw I spend a decent amount of time. 
+1, I was having trouble to understand what I'm really supposed to do. The 
+concept of acceptor is very new to me so I wasn't sure I really understand.
+
+2, My first try was a failure, and so was my second try, until my third try 
+when I rerwote everything.
+	In my first try I was thinking getting prefix first, and then pass prefix 
+	into the matcher: if it works, I'll take it, if not, I'm gonna generate 
+	the next prefix and try again, until I exhaust all the possible prefixes. 
+	This approach, however, always outputs starting with (Expr, [N Term]), 
+	never outputs (Expr, [N Term; N Binop; N Expr]). After going through the 
+	logic of matcher many times I still couldn't figure out where was wrong. 
+	Then when I print the symbol it processes everytime I realize that since 
+	everytime the first prefix would be ["9"], and this of course can only 
+	match to (Expr, [N Term]). 
+
+	Then I came to the second try. I generate all the possible prefixes first, 
+	and reverse the order into longest -> shortest sequence. This time it 
+	works for all the test cases beside test4. It was a huge pain to find out 
+	where the problem is. Since we are using our self-defined type 'symbol, 
+	ocaml doesn't allow me to print it out! So I have no way to debug. After 
+	taling to friends, I realize that I missed a case that if the first item 
+	in the rule finds a way to match to the fragments, but this way is not the 
+	way that can enable the following items in that rule to match to the 
+	fragments, my program would output None instead of trying all the other 
+	possible rules. I attempted a fix, but since I was not able to debug, I 
+	failed to completely fix it. (I tried to install some third party package 
+	that can dump the variable in the format of string, but my environment 
+	keep getting error when trying to install. After an hour of trying to fix, 
+	i gave up at the end)
+
+	At last, I decided to rewrite everything. With the previous experience it 
+	actually took me less time than debugging to finish it. I used match_rhs 
+	as a acceptor so that every time when all the symbols of one rule of that 
+	of a Non-terminal symbol have been matched to fragments, it will 
+	automatically keep checking all the other symbols belonging to the rule 
+	where the Non-terminal symbol appears. And in this way, we can always 
+	backtrack to the original step when one way is not working further down 
+	the road.

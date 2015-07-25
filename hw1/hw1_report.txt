@@ -1,0 +1,19 @@
+The warm up functions are easy to write once I successfully set up the environment and understand what the requirements mean, especially for 
+computed_periodic_fixed_point.
+
+For the filter_blind_alleys part, the approach I take is
+1, separate the grammar rules into nonTerminal list and terminal list
+2, scan through all the nonTerminal rules to see if any of them can reach to the terminal with the current terminal list
+3, if found any in Step2, put them into the terminal list
+4, repeat from Step2 until there's no nonTerminal rules can be added
+
+At first the first way jumping into my head is the most direct approach: if this rule is a blind-alley, take it away. But then I quickly realize it's not a good way, because computer cannot solve "halt problem", so the only way to judge it is a blind alley is set a limit of loop it can run, and once it hit the limit it's deemed a blind-alley. This is not only computationally very inefficient but also harder to implement.
+Then I came up with the way I mentioned above.
+
+During implementation, two main issues bothered me:
+1, OCaml is a functional language, and also for this assignment we are not allowed to have side effect. How to hold two list (terminals and nonterminals), allow them to change, go through all of the elements, and we can still go back to see the original list (i.e. the nonterminal list)?
+Then I figure out I can have the nonterminal list rotate by moving the head to the end of the list every time I finish reading it. In this way I won't lose the information. The bad side of this way is it's not the most efficient way to deal with the data: it takes more memory, and we will also have repeated result(for this problem I cleaned the repeated item in the list at the end).
+
+2, The type error occurs many times, and sometimes it's a pain to debug because it's hard to find from what kind of use of the variable I let the compiler infer to the dichotomy of the types. The bad written error message makes it even harder, seriously. (Now I get why everyone is making fun of its French origin..)
+
+One excitement I get from this homework is that I realize I can use computed_fixed_point function I wrote in the warm up part! It’s quite a relish to find out that the language processing can share the exactly same idea from math functions. And it works so perfectly. Wow. 

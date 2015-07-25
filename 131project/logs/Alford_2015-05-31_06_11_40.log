@@ -1,0 +1,15 @@
+INFO:root:Alford server started
+INFO:root:Connection with Alford established. Total: 1
+INFO:root:Input received: echo IAMAT egger +37.322752-122.030836 1401072205.798801
+ERROR:root:Invalid request: echo IAMAT egger +37.322752-122.030836 1401072205.798801
+INFO:root:Input received: IAMAT egger +37.322752-122.030836 1401072205.798801
+INFO:root:Sent message: AT egger +37.322752-122.030836 1401072205.798801 to the following servers ['Parker', 'Powell']
+INFO:root:Reply to IAMAT request: AT Alford +31980549.9649 egger +37.322752-122.030836 1401072205.798801
+INFO:root:Connection with Alford established. Total: 2
+INFO:root:Connection with Alford established. Total: 3
+INFO:root:Input received: AT egger +37.322752-122.030836 1401072205.798801
+INFO:root:Connection with Alford lost. Total: 2
+INFO:root:Input received: AT egger +37.322752-122.030836 1401072205.798801
+INFO:root:Connection with Alford lost. Total: 1
+INFO:root:Alford server shutdown
+INFO:root:Connection with Alford lost. Total: 0
